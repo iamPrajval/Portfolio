@@ -11,7 +11,7 @@ const galleryItems = [
     src: img1,
     alt: "Overview",
     title: (
-      <h2 className="text-2xl font-bold text-[#1C3343]">Overview</h2>
+      <>Overview - Orders</>
     ),
     description: (
       <>
@@ -151,8 +151,7 @@ const ProjectPage = () => {
               </div>
               {/* Description on the right */}
               <div
-                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start"
-                style={{ width: "532px" }}
+                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start description-width"
                 >
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-[#1C3343] text-left">{item.title}</h3>
                 <p className="text-base sm:text-lg text-[#0D2226] text-justify">{item.description}</p>

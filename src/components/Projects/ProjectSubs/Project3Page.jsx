@@ -10,7 +10,7 @@ const galleryItems = [
     src: img1,
     alt: "Sales Volume Trend (2010-2024)",
     title: (
-      <h2 className="text-2xl font-bold text-[#1C3343]">Sales Volume Trend (2010-2024)</h2>
+      <>Sales Volume Trend (2010-2024)</>
     ),
     description: (
       <>
@@ -111,14 +111,18 @@ const Project3Page = () => {
           </p>
           <br />
           <p className="text-base sm:text-lg md:text-xl text-[#0D2226] mb-4 md:mb-6 text-left">
-            GitHub Link - <a href="https://github.com/iamPrajval/Python---BMW-Sales-Analysis/blob/main/BMW%20Sales%20Analysis.ipynb">Click here to view the code</a>
+            <a href="https://github.com/iamPrajval/Python---BMW-Sales-Analysis/blob/main/BMW%20Sales%20Analysis.ipynb" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline cursor-pointer hover:text-blue-800">GitHub Link</a>
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#0D2226] mb-4 md:mb-6 text-left">
             <br />
           Skills & Tools:
+          <br />
           •Data Manipulation: Python (Pandas)
+          <br />
           •Data Visualization: Python (Matplotlib)
+          <br />
           •Analysis Techniques: Data Grouping, Trend Visualization, and Distribution Analysis
+          <br />
           </p>
 
         </div>
@@ -140,8 +144,7 @@ const Project3Page = () => {
               </div>
               {/* Description on the right */}
               <div
-                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start"
-                style={{ width: "532px" }}
+                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start description-width"
                 >
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-[#1C3343] text-left">{item.title}</h3>
                 <p className="text-base sm:text-lg text-[#0D2226] text-justify">{item.description}</p>

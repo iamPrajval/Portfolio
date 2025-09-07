@@ -9,7 +9,7 @@ const galleryItems = [
     src: img1,
     alt: "Orders Overview",
     title: (
-      <h2 className="text-2xl font-bold text-[#1C3343]">Overview - Orders</h2>
+      <>Overview - Orders</>
     ),
     description: (
       <>
@@ -26,8 +26,8 @@ const galleryItems = [
 
   {
     src: img2,
-    alt: "Visualization Dashboard",
-    title: "Visualization Dashboard",
+    alt: "Marketing Performance",
+    title: "Marketing Performance",
     description: (
       <>
       <strong>Highly Profitable Marketing:</strong> The marketing spend of ₹16.32M generated a strong ₹32.19M in revenue, resulting in an impressive Average ROAS of 2.74.
@@ -87,8 +87,7 @@ const ProjectPage = () => {
             >
               PRAJVAL J
             </a></div>
-        <button
-          className="inline-block px-4 py-2 bg-[#0D2226] text-white rounded hover:bg-[#1C3343] transition"
+        <button className="inline-block px-4 py-2 bg-[#0D2226] text-white rounded hover:bg-[#1C3343] transition"
           onClick={() => {
             window.close();
           }}
@@ -131,8 +130,7 @@ const ProjectPage = () => {
               </div>
               {/* Description on the right */}
               <div
-                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start"
-                style={{ width: "532px" }}
+                className="md:w-1/3 w-full p-4 flex flex-col justify-center items-start description-width"
                 >
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-[#1C3343] text-left">{item.title}</h3>
                 <p className="text-base sm:text-lg text-[#0D2226] text-justify">{item.description}</p>
