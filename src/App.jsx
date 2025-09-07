@@ -75,6 +75,10 @@ function AppContent() {
         element={<Project2Page />}
       />
       <Route
+        path="/project/:projectId"
+        element={<ProjectPage />}
+      />
+      <Route
         path="/certifications"
         element={
           <>

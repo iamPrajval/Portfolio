@@ -8,7 +8,8 @@ if (typeof window !== 'undefined' && window.location.search.startsWith('?/')) {
   const query = window.location.search.slice(2);
   const [path, ...searchParts] = query.split('&');
   const search = searchParts.length > 0 ? '?' + searchParts.join('&').replace(/~and~/g, '&') : '';
-  window.history.replaceState(null, '', '/Portfolio' + path + search);
+  // Fix path to include slash after /Portfolio
+  window.history.replaceState(null, '', '/Portfolio/' + path + search);
 }
 
 createRoot(document.getElementById('root')).render(
