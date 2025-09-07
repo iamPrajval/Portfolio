@@ -4,6 +4,7 @@ import "./Projects.css";
 import qualityImg from "../Images/Cover Pic - Quick Commerce Analysis.png";
 import taxiimg from "../Images/Cover Pic - Taxi Performance Analytics.png";
 import demoImg2 from "../Images/demo2-list.png";
+import project3Img from "../Images/BMW_Sales.webp";
 
 const BASE_PATH = "/Portfolio";
 
@@ -23,6 +24,13 @@ const projects = [
     link: `${BASE_PATH}/project/Project2Page`, // <-- add BASE_PATH
     cover: taxiimg,
     internal: false,
+  },
+  {
+    title: "Data Analysis of BMW Sales",
+    description: "A comprehensive data analysis project using Python to visualize and interpret key trends in BMW's global sales data from 2010 to 2024.",
+    link: `${BASE_PATH}/project/Project3Page`,
+    cover: project3Img,
+    internal: true,
   },
 ];
 

@@ -7,6 +7,7 @@ import AboutMe from './components/About me/Aboutme.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import ProjectPage from './components/Projects/ProjectSubs/ProjectPage.jsx';
 import Project2Page from './components/Projects/ProjectSubs/Project2Page.jsx';
+import Project3Page from './components/Projects/ProjectSubs/Project3Page.jsx';
 import Certifications from './components/Certifications/Certifications.jsx';
 import Contact from './components/Contact/Contact.jsx';
 
@@ -20,6 +21,7 @@ function AppContent() {
     if (
       location.pathname === "/project/portfolio-website" ||
       location.pathname === "/project/Project2Page" ||
+      location.pathname === "/project/Project3Page" ||
       location.pathname === "/certifications"
     ) {
       setLoading(false);
@@ -73,6 +75,10 @@ function AppContent() {
       <Route
         path="/project/Project2Page"
         element={<Project2Page />}
+      />
+      <Route
+        path="/project/Project3Page"
+        element={<Project3Page />}
       />
       <Route
         path="/certifications"

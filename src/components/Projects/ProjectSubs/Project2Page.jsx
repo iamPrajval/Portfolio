@@ -155,7 +155,7 @@ const ProjectPage = () => {
                 style={{ width: "532px" }}
                 >
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-[#1C3343] text-left">{item.title}</h3>
-                <p className="text-base sm:text-lg text-[#0D2226] text-left">{item.description}</p>
+                <p className="text-base sm:text-lg text-[#0D2226] text-justify">{item.description}</p>
             </div>
             </div>
           ))}

@@ -1,13 +1,13 @@
 import React from "react";
 import './Hero.css'; // CSS file for additional styles
-import img1 from "../Images/dummy1.png"; // Replace with your image path
+import img1 from "../Images/ProfilePhoto.webp"; // Replace with your image path
 
 
 
 const Hero = () => {
   return (
     <section id="home" className="flex flex-col md:flex-row items-center justify-center min-h-screen px-6 bg-gray-50 pt-16 md:pt-0">
-      {/* Left: Photo */}
+      {/* Left: Photo */} 
       <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
         <img
             src={img1}
