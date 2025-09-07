@@ -10,9 +10,7 @@ const galleryItems = [
   {
     src: img1,
     alt: "Overview",
-    title: (
-      <h2 className="text-2xl font-bold text-[#1C3343]">Overview</h2>
-    ),
+    title: "Overview",
     description: (
       <>
         <strong>Seasonal Demand: </strong> Bookings peaked in January and August, while February marked the lowest point in demand. This suggests clear seasonal trends that can inform future marketing campaigns and driver incentives.

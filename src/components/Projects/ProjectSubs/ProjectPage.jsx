@@ -8,9 +8,7 @@ const galleryItems = [
   {
     src: img1,
     alt: "Orders Overview",
-    title: (
-      <h2 className="text-2xl font-bold text-[#1C3343]">Overview - Orders</h2>
-    ),
+    title: "Orders - Overview",
     description: (
       <>
         <strong>Solid Financials:</strong> The business has generated over ₹10.67M in revenue from 4,850 orders, with a strong average order value of ₹2,200.
@@ -26,8 +24,8 @@ const galleryItems = [
 
   {
     src: img2,
-    alt: "Visualization Dashboard",
-    title: "Visualization Dashboard",
+    alt: "Marketing Performance",
+    title: "Marketing Performance",
     description: (
       <>
       <strong>Highly Profitable Marketing:</strong> The marketing spend of ₹16.32M generated a strong ₹32.19M in revenue, resulting in an impressive Average ROAS of 2.74.
@@ -104,7 +102,7 @@ const ProjectPage = () => {
             Executive Summary
           </h3>
           <p className="text-base sm:text-lg md:text-xl text-[#0D2226] mb-4 md:mb-6 text-left">
-            This Power BI dashboard provides a comprehensive look at the company's performance, from orders and revenue to marketing efficiency and customer feedback. It offers vital insights into key metrics, revealing areas of strength like a strong return on marketing spend, as well as critical challenges like delivery delays and a significant volume of negative customer sentiment.
+            This Power BI dashboard provides a comprehensive look at the company's performance, from orders and revenue to marketing efficiency and customer feedback. It offers vital insights into key metrics, revealing areas of strength, like a strong return on marketing spend, as well as critical challenges, like delivery delays and a significant volume of negative customer sentiment.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#0D2226] mb-4 md:mb-6 text-left">
             Data Source: Kaggle
