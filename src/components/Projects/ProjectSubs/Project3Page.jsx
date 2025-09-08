@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import img1 from "./Project_Images/1_sales_volume_by_year.webp";
-import img2 from "./Project_Images/2_stacked_sales_by_year_and_region.webp";
-import img3 from "./Project_Images/3_sales_by_year_and_fuel_type.webp";
-import img4 from "./Project_Images/4_sales_by_model_and_transmission.webp";
+import img1 from "./Project_Images/1_sales_volume_by_year-DGfGgZNr.webp";
+import img2 from "./Project_Images/2_stacked_sales_by_year_and_region-BSPZNog_.webp";
+import img3 from "./Project_Images/3_sales_by_year_and_fuel_type-DY5SqH1n.webp";
+import img4 from "./Project_Images/4_sales_by_model_and_transmission-Cvp2-fEd.webp";
 
 const galleryItems = [
   {
