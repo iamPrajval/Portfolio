@@ -115,13 +115,13 @@ const Project3Page = () => {
           </p>
           <p className="text-base sm:text-lg md:text-xl text-[#0D2226] mb-4 md:mb-6 text-left">
             <br />
-          Skills & Tools:
+          <strong>Skills & Tools:</strong>
           <br />
-          •Data Manipulation: Python (Pandas)
+          <strong>•Data Manipulation:</strong> Python (Pandas)
           <br />
-          •Data Visualization: Python (Matplotlib)
+          <strong>•Data Visualization:</strong> Python (Matplotlib)
           <br />
-          •Analysis Techniques: Data Grouping, Trend Visualization, and Distribution Analysis
+          <strong>•Analysis Techniques:</strong> Data Grouping, Trend Visualization, and Distribution Analysis
           <br />
           </p>
 
