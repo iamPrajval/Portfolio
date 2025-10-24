@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <a
           href="#contact"
-          className="px-6 py-2 rounded animate-contact-btn-fade"
+          className="px-6 py-2 rounded animate-contact-btn-fade mb-4"
           style={{ backgroundColor: "#1C3343", color: "#fff" }}
         >
           Contact Me
