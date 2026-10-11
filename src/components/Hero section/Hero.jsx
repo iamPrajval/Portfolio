@@ -21,7 +21,7 @@ const Hero = () => {
           Hi, I'm Prajval
         </h1>
         <p className="text-lg md:text-xl text-[#0D2226] mb-6 animate-hero-p-fade" >
-          Aspiring Data Analyst passionate about transforming data into clear, impactful decisions through analysis and visualization.
+          Aspiring Business Analyst passionate about transforming data into clear, impactful decisions through analysis and visualization.
         </p>
         <a
           href="#contact"
