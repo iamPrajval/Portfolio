@@ -9,7 +9,7 @@ const AboutMe = () => {
           About Me
         </h2>
         <p className="text-lg text-white mb-4">
-          I'm a data-driven professional specializing in retail insights, with over two years of experience in transforming complex data into strategic business recommendations. I’m proficient in leveraging Power BI, Python, and SQL to deliver end-to-end analytics, helping clients make smarter decisions based on product trends and customer behavior.
+          I'm a data-driven professional specializing in retail insights, with over three years of experience in transforming complex data into strategic business recommendations. I’m proficient in leveraging Power BI, Python, and SQL to deliver end-to-end analytics, helping clients make smarter decisions based on product trends and customer behavior.
         </p>
         <p className="text-lg text-white mb-4">
           Beyond my day-to-day work, I’m passionate about the future of business intelligence and enjoy exploring the latest trends, including the applications of Generative AI in analytics. Let’s connect and find new ways to turn data into a competitive advantage.
